@@ -1,0 +1,120 @@
+{
+  "version": 1,
+  "model": "assets/model.gltf",
+  "character": "assets/character.glb",
+  "characterAnims": {
+    "walk": null,
+    "idle": null
+  },
+  "camera": {
+    "mode": "third",
+    "dist": 4.5,
+    "cs": 1.4,
+    "fov": 75,
+    "rot": 1,
+    "spd": 1,
+    "eye": 1.6,
+    "step": 0.25,
+    "up": 80,
+    "down": 80,
+    "col": true,
+    "keep": true,
+    "bound": false,
+    "start": {
+      "pos": [
+        -2.6559,
+        1.6,
+        -6.5623
+      ],
+      "yaw": 9.38,
+      "pitch": -0.3325
+    }
+  },
+  "hotspots": [
+    {
+      "type": "video",
+      "position": [
+        -2.7086,
+        2.1478,
+        0.2602
+      ],
+      "base": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "roll": 0,
+      "w": 3.8118,
+      "h": 2.3057,
+      "frame": {
+        "color": "#0e0f12",
+        "width": 10
+      },
+      "muted": true,
+      "popup": {
+        "url": "https://youtu.be/6stlCkUDG_s?si=cBgQuxjEmdUSVMMu",
+        "size": 90,
+        "veil": 0.4
+      },
+      "video": "assets/video-0.mp4"
+    },
+    {
+      "type": "web",
+      "position": [
+        7.17,
+        2.023,
+        0.2602
+      ],
+      "base": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "roll": 0,
+      "w": 3.7412,
+      "h": 2.3153,
+      "frame": {
+        "color": "#0e0f12",
+        "width": 10
+      },
+      "muted": true,
+      "popup": {
+        "url": "https://www.lipsum.com",
+        "size": 90,
+        "veil": 0.4
+      },
+      "url": "https://www.lipsum.com"
+    },
+    {
+      "type": "area",
+      "position": [
+        -12.8619,
+        2.1349,
+        0.2602
+      ],
+      "base": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "roll": 0,
+      "w": 3.7216,
+      "h": 2.3788,
+      "frame": {
+        "color": "#0e0f12",
+        "width": 0
+      },
+      "muted": true,
+      "popup": {
+        "url": "https://www.lipsum.com",
+        "size": 90,
+        "veil": 0.4
+      },
+      "label": "https://www.lipsum.com",
+      "image": "assets/area-2.jpeg"
+    }
+  ]
+}

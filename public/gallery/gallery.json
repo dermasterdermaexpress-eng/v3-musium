@@ -1,7 +1,7 @@
 {
   "version": 1,
   "model": "assets/model.gltf",
-  "character": "assets/character.glb",
+  "character": "assets/character-optimized.glb",
   "characterAnims": {
     "walk": null,
     "idle": null
